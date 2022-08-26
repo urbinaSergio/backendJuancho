@@ -1,11 +1,10 @@
 # pruebajuancho
 
-Hola muy buenas noches, Señores de juancho Software.
+Hola muy buenas noches, Señores de juancho te presta.
 
 En este repositorio se encuentra todo el proyecto de Java con el framework Spring Boot y Gradle,
 
-En esta prueba estoy utilizando Postgresql ya que se me facilita mas este entorno, en todo caso MongoDB lo estoy aprendiendo hoy en dia.
-El proyecto esta basado en un fruber.
+El proyecto esta basado en un fruber, ya que no me a quedado mucho tiempo por mi trabajo
 Espero que les guste.
 
 Nota para iniciar el proyecto:
@@ -16,11 +15,18 @@ Tener bien cunfigurado las variables de entorno el JAVA_HOME etc.
 Para arrancar el proyecto e mi caso utilice intellij idea, usar el de su preferencia.
 
 Este es el link de swagger, donde documento los servicios expuestos
+Aqui esta la docuememtacion de como iniciar los servicios de Api Rest, yo tambien se utilizar AMQ con camel
+
 http://localhost:8090/urbina/juancho/swagger-ui.html#/
 
 
+Para inicializar Postgresql debemos crear la base de datos en una conexion local: nombre de la base de datos:  urbina.
 
-Para inicializar Postgresql debemos crear la base de datos: urbina.
+#DataBase
+
+spring.datasource.url= jdbc:postgresql://localhost:5432/urbina
+spring.datasource.data-username=postgres
+spring.datasource.data-password=1234
 
 Y crear estas tablas
 
